@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #fff;
+  --bg-color: black;
+  --bacground-color: rgb(36, 32, 32);
+  --botom-bacground: rgb(133, 98, 165);
+  --p-circl-color: #eaeaea;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+.all-pages {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  margin: 1rem;
+  min-height: 100dvh;
+}
+.side {
+  background-color: rgb(36, 32, 32);
+  padding: 1rem;
+  height: 100%;
+  overflow: auto;
+}
+.side-logo-p {
+  display: flex;
+  gap: 1.7rem;
+}
+.side-logo-p img {
+  width: 6rem;
+  height: 6rem;
+}
+.side-logo-p-p {
+  display: flex;
+  flex-direction: column;
+}
+.side-logo-p-subtitle {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.location-icon {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #bcadad;
+}
+.p-middle {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #bcadad;
+  word-spacing: 0.3rem;
+}
+.button-1 {
+  padding: 0.5rem 8.5rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  background-color: var(--botom-bacground);
+  color: var(--font-color);
+  border: none;
+  margin-bottom: 1.5rem;
+}
+.global-icon {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.icon-dalalka {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 1.5rem;
+}
+.p-dalalka {
+  display: flex;
+}
+.dalalka-p span,
+.kagooni span {
+  padding: 0.3rem 1.4rem;
+  background-color: #f5e8e826;
+  border-radius: 25px;
+  color: var(--font-color);
+}
+.kagooni {
+  margin-top: 1rem;
+  margin-left: 2.9rem;
+}
+hr {
+  margin: 2rem 0;
+}
+.dropdowns {
+  padding: 2rem 3rem 5rem 3rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.dropdowns-grid {
+  display: grid;
+  grid-template-columns: 1.7rem 1fr 1.7rem 1.7rem;
+
+  gap: 1rem 1rem;
+  justify-content: start;
+}
+.tiro {
+  border-radius: 6px;
+  padding: 2px 2px;
+  background-color: orange;
+  text-align: center;
+  color: var(--bacground-color);
+}
+.cheif {
+  background-color: #1e1e1e;
+}
+.button-2 {
+  padding: 0.2rem 3.7rem;
+  margin-top: 3rem;
+  border: none;
+  border-radius: 3px;
+}
+.director {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+}
+.director p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.fa-plus {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 0.3rem 0.4rem;
+}
+.folders {
+  display: grid;
+  grid-template-columns: 1.7rem 1fr 1rem;
+  justify-content: start;
+  gap: 0.5rem 0.7rem;
+  margin-top: 1.5rem;
+}
+.staff {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.circel-image {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+}
+.circel-image {
+  display: flex;
+  flex-direction: column;
+}
+.circel-image-p {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  align-items: center;
+}
+.circel-image-p span {
+  font-weight: 100;
+  font-size: xx-small;
+  color: #bcadad;
+}
+.butoon-3 {
+  padding: 0.2rem 2rem;
+
+  border: none;
+  border-radius: 3px;
+  margin: 2rem;
+  color: var(--bacground-color);
+}
+section {
+  overflow: none;
+  height: 100%;
+  overflow-y: auto;
+}
